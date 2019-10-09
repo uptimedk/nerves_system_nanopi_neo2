@@ -75,7 +75,7 @@ defmodule NervesSystemNanoPiNeo2.MixProject do
     [
       "fwup_include",
       "rootfs_overlay",
-      # "CHANGELOG.md",
+      "CHANGELOG.md",
       "boot.cmd",
       # "fwup-revert.conf",
       "fwup.conf",
