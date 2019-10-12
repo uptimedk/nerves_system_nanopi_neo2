@@ -73,18 +73,21 @@ defmodule NervesSystemNanoPiNeo2.MixProject do
 
   defp package_files do
     [
-      "fwup_include",
-      "rootfs_overlay",
-      "CHANGELOG.md",
       "boot.cmd",
-      # "fwup-revert.conf",
+      "CHANGELOG.md",
+      "fwup-revert.conf",
       "fwup.conf",
+      "fwup_include",
+      # "LICENSE",
       # "linux-4.19.defconfig",
       "mix.exs",
       "nerves_defconfig",
       "post-build.sh",
       "post-createfs.sh",
-      "README.md"
+      "README.md",
+      "rootfs_overlay",
+      "uboot.env",
+      "VERSION"
     ]
   end
 
