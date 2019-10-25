@@ -86,7 +86,7 @@ defmodule NervesSystemNanoPiNeo2.MixProject do
       "post-createfs.sh",
       "README.md",
       "rootfs_overlay",
-      "uboot.env",
+      "uboot",
       "VERSION"
     ]
   end
